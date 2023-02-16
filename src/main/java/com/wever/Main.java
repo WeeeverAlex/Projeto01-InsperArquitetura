@@ -14,7 +14,7 @@ public class Main
     public static void main( String[] args )
     {
         Usuario remetente = new Usuario("Wever");
-        Usuario destinatario = new Usuario("João");
+        Usuario destinatario = new Usuario("Mathias");
 
         Mensagem mensagem = new Mensagem("Olá, tudo bem?", remetente, destinatario);
         MensagemTexto mensagemTexto = new MensagemTexto("Tudo bem e você?", remetente, destinatario);
